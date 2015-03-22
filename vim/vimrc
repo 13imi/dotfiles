@@ -1,0 +1,44 @@
+"Encode
+set encoding=UTF-8
+set fileencoding=UTF-8
+set termencoding=UTF-8
+
+""Search
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set wrapscan
+
+""Input
+set cindent
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set softtabstop=4
+"{set backspace=indent,eol,start
+set whichwrap=b,s,h,l,<,>,[,]
+set clipboard=unnamed
+
+
+"emacs使用
+"使用inoremap <BackSpace> <BackSpace>
+inoremap <c-d> <delete>
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-l> <right>
+inoremap <c-h> <left>
+
+""Display
+colorscheme desert
+set background=dark
+syntax on
+set number
+set title
+set showcmd
+set ruler
+set list
+set showmatch
+set matchtime=3
+set listchars=eol:$,tab:>\ ,extends:<
+set laststatus=2
