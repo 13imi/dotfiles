@@ -1,0 +1,12 @@
+{
+    "Prompt": ">>",
+    "Keymap": {
+        "M-v": "peco.SelectPreviousPage",
+        "C-v": "peco.SelectNextPage",
+        "C-g": "peco.Cancel"
+    },
+    "Style": {
+        "Selected": ["on_green", "black"],
+        "Matched": ["yellow", "bold"]
+    }
+}

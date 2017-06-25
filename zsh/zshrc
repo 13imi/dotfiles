@@ -100,6 +100,7 @@ RPROMPT=$'%F{077}$(my_vcs_info)%}%f%F{038}[%~]%f'
 ## ALIAS COMMAND ##
 ##================#
 setopt complete_aliases
+alias g='git'
 alias ls="ls -G -w -h"
 alias la="ls -a"
 alias lf="ls -F"
@@ -116,11 +117,12 @@ alias brug="brew upgrade"
 alias bs="brew -S"
 alias bi="brew info"
 alias be='bundle exec'
+alias b='bundle'
 alias binit='bundle init; bundle install --path vendor/bundle'
 alias col='ssh okumura@collagree.com'
 alias zc='z collagree'
-alias rs='bundle exec spring rails s'
-alias rc='bundle exec rails c'
+alias bs='bundle exec spring rails s'
+alias bc='bundle exec rails c'
 
 #===========##
 ## HISTORY  ##

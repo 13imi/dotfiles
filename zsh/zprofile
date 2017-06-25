@@ -13,3 +13,9 @@ export PATH=$HOME/.phpenv/bin:$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH
 
 export PATH=$PATH:/usr/local/share/npm/bin
 export NODE_PATH=/usr/local/lib/node_modules
+
+# golang用設定
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
