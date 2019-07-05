@@ -1,5 +1,5 @@
 ## dotfiles
-1: dotfilesをcloneする
+1: dotfilesをcloneする  
 `git@github.com:13imi/dotfiles.git`
 
 ### .zsh
@@ -8,6 +8,6 @@
 ln -sf .zshrc ~./.zshrc
 ln -sf .zshenv ~./.zshenv
 ln -sf ./.zprofile ~./.zpfofiles
+```
 
 2: .zshrcを読み混んで終了
-カメラもわからない
